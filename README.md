@@ -19,22 +19,28 @@ This process is implemented python, and the following libraries:
   * Pytesseract (text detector)
   * OpenCV (For draw bbox)
   * Os (For manage path)
+  * Csv (For manage csv file)
 
 ## Outputs
-Detecting characters:
+Some pages where we detecting characters:
 
-![Output1][lil-out1-url]
+![Pag1][lil-pag1-url]
 
-Detecting words:
+Page 2:
 
-![Output2][lil-out2-url]
+![Pag2][lil-pag2-url]
 
-Detecting numbers:
+Page 3:
 
-![Output3][lil-out3-url]
+![Pag3][lil-pag3-url]
+
+The output csv is:
+
+![Csv File][lil-csv-url]
 
 In the detecting numbers we didn't get good results maybe because we don't use any image preprocessing as recommendend in the official repository. For more information, visit [here](https://github.com/tesseract-ocr/tessdoc/blob/main/ImproveQuality.md#binarisation).
 
-[lil-out1-url]: https://raw.githubusercontent.com/oguapi/OCRWithTesseract/master/assets/output1.jpg
-[lil-out2-url]: https://raw.githubusercontent.com/oguapi/OCRWithTesseract/master/assets/output2.jpg
-[lil-out3-url]: https://raw.githubusercontent.com/oguapi/OCRWithTesseract/master/assets/output3.jpg
+[lil-pag1-url]: https://raw.githubusercontent.com/oguapi/DetectChapterInPDF/master/assets/IndiceLibroOpencv_page1OCR.png
+[lil-pag2-url]: https://raw.githubusercontent.com/oguapi/DetectChapterInPDF/master/assets/IndiceLibroOpencv_page2OCR.png
+[lil-pag3-url]: https://raw.githubusercontent.com/oguapi/DetectChapterInPDF/master/assets/IndiceLibroOpencv_page3OCR.png
+[lil-csv-url]: https://raw.githubusercontent.com/oguapi/DetectChapterInPDF/master/assets/newCsv.csv
